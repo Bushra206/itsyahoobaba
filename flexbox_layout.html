@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* #sociallinks li{
+            list-style: none;
+        } */
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        header{
+            background-color: #4b5d28;
+            display: flex;
+            align-items: cenr;
+            padding: 15px 0;
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            
+        }
+        header a{
+            color: white;
+        }
+        #logo{
+            margin: 0 auto;
+            font-size: 30px;
+        }
+        a{
+            text-decoration:none ;
+        }
+        a:hover{
+            color: #1ebdcc;
+        }
+        #menu li{
+            padding: 10px;
+        }
+        #sociallinks li{
+            padding: 10px;
+        }
+        #main{
+            display: flex;
+            
+        }
+        aside{
+            flex:0 0 20vw;
+            background-color: azure;
+            padding: 10px;
+
+        }
+        aside ul{
+            list-style: none;
+            padding: 0;
+
+        }
+        aside ul a{
+            display: block;
+            border-bottom: 1px solid grey;
+            padding: 5px;
+        }
+        aside img{
+            width: 100%;
+            height:5
+        }
+        article{     
+            padding: 10px;
+  }
+
+        .services_container{
+            display: flex;
+            flex-wrap: wrap; 
+            /* border: 2px solid black; */
+            padding: 10px;
+            justify-content: space-between;
+
+        }
+        .service_box{
+            border: 1px solid lightgray;
+            padding: 10px;
+            flex-basis: 32%;
+            max-width: 370px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+        .service_box img{
+            width: 100%;
+        }
+        .service_desc{
+
+            margin-bottom: 13px;
+        }
+        .service_box h3{
+            margin: 5px 0 10px ;
+        }
+        .call_to_action a{
+            background-color: grey;
+            color: white;
+            padding: 8px 13px;
+            display: block;
+            border: 2px solid transparent;
+        }
+        .call_to_action a:hover{
+            background-color: transparent;
+            border: 2px solid grey;
+            color: #000;
+        }
+        .call_to_action{
+            align-self: flex-start;
+            margin-top: auto;
+        }
+        footer{
+            background-color: #4b5d28;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        @media screen and (max-width:850px){
+            aside{
+            flex:0 0 30vw;      
+        }
+        .service_box{
+           
+            flex-basis: 48%;
+            
+            
+           
+        }
+    }
+    @media screen and (max-width:600px){
+        header{
+            
+            flex-direction: column;
+            align-items: center;
+
+
+    }
+    #logo{
+        order: -1;
+    }
+    article{
+        order: -1;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .services_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="">Home</a></i></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <a href="">Bushra maham</a>
+        </div>
+        <nav id="sociallinks">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                
+                <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div id="main">
+            <!-- <p>sidebar</p> -->
+
+            <aside class="">
+            <ul>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+            </ul>
+            <img src="laptop.jpg" alt="">
+             </aside>
+             <article>
+                <h2>Welcome to our website</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem, officia eos voluptates aliquam maxime quae ad eveniet optio aspernatur commodi voluptatibus, assumenda id illum error, incidunt esse autem. Natus reprehenderit expedita eveniet dolorem magnam ut nostrum ullam corrupti maiores dolorum qui enim inventore, quis voluptatum totam consequatur optio sequi adipisci assumenda eaque! Facere iusto consectetur rem quis dolorem earum, esse sit repellat. Nulla esse quia magni molestias id et accusamus, nemo tempore sapiente excepturi enim cupiditate architecto quo. Laboriosam et repellat itaque sed, deleniti alias est? Quam earum maiores iure nobis similique aperiam. Veniam quasi cum voluptate vero obcaecati.</p>
+                <h2>Our services</h2>
+                <div class="services_container">
+                    <!-- <p>1st sevice box</p> -->
+                    <div class="service_box">
+                        <div class="services_img">
+                            <img src="web desg.jpg" alt="">
+                        </div>
+                        <div class="service_title">
+                            <h3>Web Designing</h3>
+                        </div>
+                        <div class="service_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti consectetur nisi earum expedita quaerat. Perferendis impedit neque laudantium inventore.</div>
+                        <div class="call_to_action">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+                    <!-- <p>2nd sevice box</p> -->
+
+                    <div class="service_box">
+                        <div class="services_img">
+                            <img src="web dev.jpg" alt="">
+                        </div>
+                        <div class="service_title">
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="service_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, qui!</div>
+                        <div class="call_to_action">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+
+                    <!-- <p>3rd sevice box</p> -->
+
+                    <div class="service_box">
+                        <div class="services_img">
+                            <img src="mob dev.jpg" alt="">
+                        </div>
+                        <div class="service_title">
+                            <h3>Mobile App Development</h3>
+                        </div>
+                        <div class="service_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, qui!</div>
+                        <div class="call_to_action">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+             </article>
+        </div>
+
+    </main>
+    <footer>Made by Bushra maham</footer>
+
+    
+</body>
+</html>
